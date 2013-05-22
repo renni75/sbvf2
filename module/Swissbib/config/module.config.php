@@ -290,6 +290,9 @@ return array(
 				),
 				'swissbibsingle' => array(
 					'swissbib'
+				),
+				'swissbibmobile' => array(
+					'swissbib'
 				)
 			),
 				// Configuration of tabs
