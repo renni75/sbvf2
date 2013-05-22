@@ -1,0 +1,9 @@
+.ui-mobile .results .result .image {
+	float: left;
+	margin-right: 10px;
+	width: 50px;
+}
+
+.ui-mobile .results .result .infos {
+	float: left;
+}
