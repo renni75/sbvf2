@@ -223,7 +223,8 @@ return array(
     'swissbib' => array(
         'ignore_css_assets' => array(
             'blueprint/screen.css',
-            'jquery-ui.css'
+            'jquery-ui.css',
+			'jquery.mobile-1.0rc2.min.css'
         ),
 
         'ignore_js_assets' => array(
@@ -234,6 +235,9 @@ return array(
             'jquery-ui/js/jquery-ui.js',
             'lightbox.js',
             'common.js',
+			'jquery-1.6.4.min.js',
+			'jquery.mobile-1.0rc2.min.js',
+			'scripts.js',
             //has a dependency to jQuery so has to be linked after this general component
             //move it into the swissbib libs
         ),
