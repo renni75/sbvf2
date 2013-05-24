@@ -92,4 +92,19 @@ class Summon extends VuFindSummon
 		return 1 === intval($this->getField('hasFullText'));
 	}
 
+	/**
+	 * @todo	implement
+	 * @return	array
+	 */
+	public function getAllSubjectVocabularies() {
+		return array();
+	}
+
+	/**
+	 * @todo	implement
+	 * @return string
+	 */
+	public function getAltTitle() {
+		return '';
+	}
 }

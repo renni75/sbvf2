@@ -1,3 +1,7 @@
+#content table.data {
+	width:760px;
+}
+
 #content table th,
 #content table td {
 	font-size: 12px;
@@ -238,4 +242,29 @@ ul.facet_toggler_checkbox li {
 
 #tabbed .selected a span {
 	cursor: default;
+}
+
+#treeSearch #treeSearchText {
+	width: 70%;
+	padding: 1px;
+}
+
+
+#hierarchyTree {
+	min-height: 0;
+}
+
+/** ------------ Recommendations --------------- */
+div.summondbrecommendations {
+	padding:5px 10px 10px 10px;
+	margin-bottom:10px;
+	background-color:#d4d4d4;
+}
+
+div.summondbrecommendations h2 {
+	margin-bottom:14px;
+}
+
+div.summondbrecommendations a.singleLink {
+	font-weight:bold;
 }

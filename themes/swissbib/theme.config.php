@@ -9,6 +9,7 @@ return array(
 		'patches/patch_ie7.css:all:IE 7',
 		//'patches/patch_ie6.css:all:IE 6', (we don't support IE6 in the future)
 		'blueprint-overrides.css',
+		'blueprint.css',
 		'swissbib.css'
     ),
     'js' => array(
@@ -30,7 +31,7 @@ return array(
         'lib/jquery.sb.validate.min.js',
         'lib/jquery.cookie.js',
         'lib/jquery.easing.js',
-        //'lib/jquery.hoverintent.js',
+        'lib/jquery.hoverintent.js',
         'lib/jquery.tabbed.js',
         'lib/jquery.toggler.js',
         'lib/jquery.checker.js',

@@ -11,7 +11,6 @@
 
 ?>
 <div>
-
 	<h1>
 		<?=$this->number($recordTotal)?> Treffer für ihre Suchanfrage
 		<cite><?=$this->escapeHtml($lookFor)?></cite>
@@ -31,8 +30,16 @@
 		<!-- end: tools -->
 	<?php endif; ?>
 
+
+	<!-- Recommendations -->
+	<? if ($activeTabConfig['searchClassId'] === 'Summon'): ?>
+		<?=$this->render('Recommend/SummonDatabases.phtml')?>
+	<? endif; ?>
+
+
 	<!-- data -->
 	<?=$this->render('search/list-' . $view . '.phtml')?>
+
 
 	<?php if($recordTotal): ?>
 		<!-- begin: tools -->

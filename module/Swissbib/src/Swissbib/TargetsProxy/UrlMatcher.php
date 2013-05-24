@@ -29,7 +29,7 @@ class UrlMatcher
 	{
 		foreach($hostPatterns as $hostPattern)
 		{
-			if (strstr($host, $hostPattern)!== false ) {
+			if ( !empty($hostPattern) && strstr($hostPattern, $host)!== false ) {
 				return true;
 			}
 
