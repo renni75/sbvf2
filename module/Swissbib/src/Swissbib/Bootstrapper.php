@@ -66,6 +66,7 @@ class Bootstrapper
 	 */
 	protected function initFilterChain()
 	{
+		return;
 		if (!$this->event->getRequest() instanceof ConsoleRequest) {
 			$sm = $this->event->getApplication()->getServiceManager();
 
@@ -92,10 +93,13 @@ class Bootstrapper
 		}
 
 		$baseDir = LOCAL_OVERRIDE_DIR . '/languages';
+
+		// Custom namespaces for zendTranslate
 		$types   = array(
-			'institution',
+			'bibinfo',
 			'group',
-			'bibinfo'
+			'institution',
+			'union'
 		);
 
 		$callback = function ($event) use ($baseDir, $types) {
