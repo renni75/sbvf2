@@ -3,7 +3,7 @@ return array(
     'extends' => 'blueprint',
 //    'extends' => 'root',
     'css' => array(
-		'ui-lightness/jquery-ui.css',
+		//'ui-lightness/jquery-ui.css',
 		'patches/patch_ie.css:all:IE',
 		'patches/patch_ie9.css:all:IE 9',
 		'patches/patch_ie8.css:all:IE 8',
